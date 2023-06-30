@@ -25,6 +25,6 @@ jobs:
       - name: pnpm install
         run: pnpm install
       - name: pnpm Lint
-        run: pnpm lint
+        run: pnpm exec lint-staged --diff="${GITHUB_BASE_REF}...${GITHUB_HEAD_REF}"
       - name: pnpm build
         run: pnpm build
