@@ -4,8 +4,8 @@ import HelloWorld from './components/HelloWorld.vue';
 
 <template>
   <div>
-   <h1>second commit </h1>
-   <h4>test github action ci</h4>
+    <h1>pr test</h1>
+    <h4>test github action ci</h4>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
