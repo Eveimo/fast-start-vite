@@ -16,10 +16,12 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.6",
     "@commitlint/config-conventional": "^17.6.6",
+    "@commitlint/prompt": "^17.6.6",
     "@typescript-eslint/eslint-plugin": "~5.59.11",
     "@typescript-eslint/parser": "~5.59.11",
     "@vitejs/plugin-vue": "^4.1.0",
     "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "cz-git": "^1.6.1",
     "eslint": "~8.42.0",
     "eslint-config-prettier": "~8.8.0",
