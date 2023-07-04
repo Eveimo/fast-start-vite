@@ -1,0 +1,21 @@
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+
+const routes: Array<RouteRecordRaw> = [
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   component: Home,
+  // },
+  // {
+  //   path: "/developer",
+  //   name: "Developer",
+  //   component: () => import(/* webpackChunkName: "articles" */ "../views/portal/developer-center.vue")
+  // },
+];
+
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes,
+});
+
+export default router;
