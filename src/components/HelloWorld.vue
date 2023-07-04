@@ -1,9 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-
+import { Aiming, Camera } from '@icon-park/vue-next';
 defineProps<{ msg: string }>();
-
-const count = ref(0);
 </script>
 
 <template>
@@ -15,6 +12,10 @@ const count = ref(0);
   <el-button type="info">Info</el-button>
   <el-button type="warning">Warning</el-button>
   <el-button type="danger">Danger</el-button>
+
+  <h1>iconpark icon</h1>
+  <aiming theme="outline" size="24" fill="#333" :stroke-width="2" stroke-linejoin="bevel" />
+  <camera theme="outline" size="24" fill="#333" :stroke-width="2" stroke-linejoin="bevel" />
 </template>
 
 <style scoped lang="less">

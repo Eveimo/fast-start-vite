@@ -6,18 +6,16 @@
 ## 下载安装
 
 使用 fork 或者 使用[degit](https://github.com/Rich-Harris/degit)
-`npx degit Eveimo/fast-start-vite#main my-project` `cd my-project` `npm install` `npm run dev`
+`npx degit Eveimo/fast-start-vite#main my-project`
+
+`cd my-project` `npm install`
+
+`npm run dev`
 
 ## 使用
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with
-`vue-tsc` for type checking. In editors, we need
-[TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
-to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a
-[Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is
-more performant. You can enable it by the following steps:
+页面组件库 [element-plus](https://element-plus.org/zh-CN/component/button.html) + icon 组件库
+[iconpark](https://iconpark.oceanengine.com/official) 点击前往官网查看
 
 1. Disable the built-in TypeScript Extension
    1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
