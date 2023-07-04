@@ -9,7 +9,6 @@ specifiers:
   '@vitejs/plugin-vue': ^4.1.0
   commitizen: ^4.3.0
   cz-conventional-changelog: ^3.3.0
-  cz-git: ^1.6.1
   eslint: ~8.42.0
   eslint-config-prettier: ~8.8.0
   eslint-config-standard: ^17.1.0
@@ -47,7 +46,6 @@ devDependencies:
   '@vitejs/plugin-vue': 4.2.3_vite@4.3.9+vue@3.3.4
   commitizen: 4.3.0
   cz-conventional-changelog: 3.3.0
-  cz-git: 1.6.1
   eslint: 8.42.0
   eslint-config-prettier: 8.8.0_eslint@8.42.0
   eslint-config-standard: 17.1.0_hk5ftaifaoaa6pl6eztr2az5wu
@@ -1466,10 +1464,6 @@ packages:
     transitivePeerDependencies:
       - '@swc/core'
       - '@swc/wasm'
-    dev: true
-
-  /cz-git/1.6.1:
-    resolution: {integrity: sha512-+ohk/MFETERw4o/WpN3hUk7GM8oAwnaQI/uDuREGm4/B+G3DghGvNZQ/0MbFqZHWgKWvMzNZI6eKmPo0uPCu1A==}
     dev: true
 
   /dargs/7.0.0:
