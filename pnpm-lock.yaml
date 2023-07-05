@@ -20,6 +20,9 @@ dependencies:
   pinia-plugin-persist:
     specifier: ^1.0.0
     version: registry.npmmirror.com/pinia-plugin-persist@1.0.0(pinia@2.1.4)(vue@3.3.4)
+  postcss-pxtorem:
+    specifier: ^6.0.0
+    version: registry.npmmirror.com/postcss-pxtorem@6.0.0
   vue:
     specifier: ^3.2.47
     version: 3.3.4
@@ -5047,6 +5050,14 @@ packages:
       mlly: registry.npmmirror.com/mlly@1.4.0
       pathe: registry.npmmirror.com/pathe@1.1.1
     dev: true
+
+  registry.npmmirror.com/postcss-pxtorem@6.0.0:
+    resolution: {integrity: sha512-ZRXrD7MLLjLk2RNGV6UA4f5Y7gy+a/j1EqjAfp9NdcNYVjUMvg5HTYduTjSkKBkRkfqbg/iKrjMO70V4g1LZeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss-pxtorem/-/postcss-pxtorem-6.0.0.tgz}
+    name: postcss-pxtorem
+    version: 6.0.0
+    peerDependencies:
+      postcss: ^8.0.0
+    dev: false
 
   registry.npmmirror.com/postcss@8.4.24:
     resolution: {integrity: sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.4.24.tgz}
