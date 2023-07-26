@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+import { createPinia } from 'pinia';
 
-createApp(App).mount('#app')
+import 'element-plus/dist/index.css';
+import '@icon-park/vue-next/styles/index.css';
+console.log(import.meta.env.MODE, '模式');
+// console.log(import.meta.env.VITE_BASE_API,'url')
+createApp(App).use(createPinia()).use(router).mount('#app');
