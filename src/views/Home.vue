@@ -19,7 +19,7 @@ import { Dislike, Search, CloseOne, Close } from '@icon-park/vue-next';
 
 <style lang="less" scoped>
 h5 {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 </style>

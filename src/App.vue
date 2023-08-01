@@ -6,9 +6,10 @@
 
 <style scoped lang="less">
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
+
 html,
 body,
 #app {
