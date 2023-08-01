@@ -41,6 +41,7 @@
     "lint-staged": "^13.2.3",
     "postcss": "^8.0.0",
     "postcss-html": "~1.5.0",
+    "postcss-less": "^6.0.0",
     "postcss-pxtorem": "^6.0.0",
     "prettier": "~2.8.8",
     "stylelint": "~15.7.0",
